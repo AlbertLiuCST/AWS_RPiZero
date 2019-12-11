@@ -4,23 +4,21 @@ This is a collection of resources that will help get you started with the AWS Io
 ## Let’s start with some background
 
 ### What you need -
-Hardware:
+#### Hardware:
 Raspberry Pi Zero W /w Headers– The Raspberry Pi Zero is half the size of a Model A+, with twice the utility. A tiny Raspberry Pi that’s affordable enough for any project! __*Make sure your Raspberry Pi Comes with 2x20 GPIO Headers or you will not be able to connect you application shield*__
  
-__Micro SD Card__ - 8GB is a good base-line choice 16/32GB is generally best price-wise. Any of these choices will work. __*Make sure to have a MicroSD Card Reader as well *__
+__Micro SD Card__ - 8GB is a good base-line choice 16/32GB is generally best price-wise. Any of these choices will work. __Make sure to have a MicroSD Card Reader as well__
  
 __SixFab RPi Cellular IoT Application Shield__ – An addon for the Raspberry Pi that has the combined LTE technologies Cat.M1, Cat.NB1 (NB-IoT), and eGPRS for Raspberry Pi, based on Quectel’s BG96 module. 
 
-Software:
+#### Software:
 __Raspbian Lite__ – Free lightweight version of the Raspbian no GUI(Terminal only) https://www.raspberrypi.org/downloads/raspbian/
 __AWS Account__ – Students can create a free account and receive free credits. Follow this link https://aws.amazon.com/education/awseducate/ to join AWS Educate
 __Green Grass SDK__ – Python version as the SDK for the SixFab shield is also in Python https://docs.aws.amazon.com/greengrass/latest/developerguide/lambda-functions.html#lambda-sdks-core
  
  
- 
- 
- 
-## Overview of what the AWS Process this tutorial looks like:
+### Overview of what the AWS Process this tutorial looks like:
+
 ![Image of AWS Process](https://github.com/AlbertLiuCST/AWS_RPiZero/blob/master/images/AWS_Overview.png)
  
 #### Configuring your RPi Zero:
@@ -32,7 +30,7 @@ __Green Grass SDK__ – Python version as the SDK for the SixFab shield is also 
 Greengrass as the RPi Zero is ARMv6
 https://docs.aws.amazon.com/greengrass/latest/developerguide/module1.html
 	
-You can use the provided GG_Sensor_Data lambda function and upload that as a lambda function. The provided GG_init.sh file can be used to simplify some process of restarting your Greengrass daemon if you need to restart your RPi.
+You can use the provided __GG_Sensor_Data__ lambda function and upload that as the lambda function. The provided GG_init.sh file can be used to simplify some process of restarting your Greengrass daemon if you need to restart your RPi.
 
 #### Follow this guide on setting up IoT analytics to begin redirecting your data to other AWS Services
 https://docs.aws.amazon.com/iotanalytics/latest/userguide/quickstart.html
