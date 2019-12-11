@@ -1,7 +1,9 @@
-AWS IoT Raspberry Pi Tutorial
+# AWS IoT Raspberry Pi Tutorial
 This is a collection of resources that will help get you started with the AWS IoT, giving you some background on the assembled parts and walking you through the process of getting the parts assembled and configured to send data to AWS through LTE-M
-Let’s start with some background
-What you need -
+
+## Let’s start with some background
+
+### What you need -
 Hardware:
 Raspberry Pi Zero W /w Headers– The Raspberry Pi Zero is half the size of a Model A+, with twice the utility. A tiny Raspberry Pi that’s affordable enough for any project! Make sure your Raspberry Pi Comes with 2x20 GPIO Headers or you will not be able to connect you application shield
  
